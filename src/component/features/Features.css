@@ -1,0 +1,35 @@
+.feature{
+    width:100%;
+    background-color: #F9EBFC;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: space-around;
+    height:150px;
+}
+.feature .feature-item img{
+    width:62px;
+    height:62px
+}
+.feature .feature-item{
+    display: flex;
+    width:186px;
+    height:70px;
+    gap: 2px;
+}
+.feature .feature-item h1{
+    color:#992E9D
+}
+.feature .feature-item .text{
+    overflow: hidden;
+}
+.feature .feature-item .text p{
+    font-size: 24px;
+    color:#686972
+}
+
+@media only screen and (max-width:800px){
+    .feature{
+        display: none;
+    }
+}

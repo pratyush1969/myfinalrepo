@@ -1,0 +1,126 @@
+.internship h2 {
+    text-align: center;
+    margin-top: 50px;
+    background: linear-gradient(to right, rgba(183, 59, 190, 1),
+            rgba(55, 47, 170, 1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.internship {
+    overflow: hidden;
+}
+
+.intern {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin: 50px;
+    margin-left: 130px;
+}
+
+.interndetails {
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.interndetails img {
+    width: 100px;
+    margin: 20px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.internship .hr1 {
+    width: 190px;
+    transform: rotate(40deg);
+    position: relative;
+    top: -243px;
+    left: 200px;
+}
+
+.internship .hr2 {
+    width: 188px;
+    transform: rotate(-40deg);
+    position: relative;
+    top: -250px;
+    left: 422px;
+}
+
+.internship .hr3 {
+    width: 182px;
+    transform: rotate(40deg);
+    position: relative;
+    top: -255px;
+    left: 613px;
+}
+
+.internship .hr4 {
+    width: 173px;
+    transform: rotate(-40deg);
+    position: relative;
+    top: -258px;
+    left: 832px;
+}
+
+.apply {
+    background: linear-gradient(rgba(128, 0, 128, 1), rgba(126, 38, 126, 1));
+    text-align: center;
+    width: 225px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    position: relative;
+    top:-60px;
+    left:45%
+}
+@media only screen and (max-width:800px){
+    .internship h2{
+        text-align: center;
+    }
+    .internship .intern{
+        margin-left: -0.2px;
+        margin-right: 10px;
+    }
+    .apply{
+        margin-left: -90px;
+    }
+    .internship .hr1{
+        position: relative;
+        top:-803px;
+        left:20px;
+        transform: rotate(90deg);
+        width:90px
+    }
+    .internship .hr2{
+        position: relative;
+        top:-623px;
+        left:20px;
+        transform: rotate(90deg);
+        width:90px
+    }
+    .internship .hr3{
+        position: relative;
+        top:-443px;
+        left:20px;
+        transform: rotate(90deg);
+        width:90px
+    }
+    .internship .hr4{
+        position: relative;
+        top:-263px;
+        left:20px;
+        transform: rotate(90deg);
+        width:90px
+    }
+}

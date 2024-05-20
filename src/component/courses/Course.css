@@ -1,0 +1,117 @@
+.course {
+        background-color: rgba(252, 245, 254, 1);
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        font-family: verdana;
+    }
+
+    .heading {
+
+        text-align: center;
+    }
+
+    .heading p {
+        color: #992E9D;
+        background-color: #F4D6F8;
+        padding: 10px;
+        margin-top: 70px;
+        border-radius: 1000px;
+    }
+
+    h2 {
+        font-size: 48px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 70px;
+        color: #4C4D52;
+    }
+
+    .course h2 span {
+        background: linear-gradient(to right, rgba(183, 59, 190, 1), rgba(235, 203, 46, 1));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    .course-content{
+        background-color: #ffff;
+        margin-bottom: 80px;
+        border-radius: 28px;
+       
+    }
+
+    .corse-details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1184px;
+        padding: 28px;
+        border-bottom: 1px solid grey;
+    }
+
+    .course-lecture h3 {
+        color: #4C4D52;
+        font-size: 28px;
+    }
+
+    .course-lecture p {
+        color: #83848D
+    }
+
+   
+
+
+.view {
+    display: flex;
+    padding: 20px;
+    color: rgba(153, 46, 157, 1);
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(249, 235, 252, 1);
+    border-radius: 1000px;
+    font-weight: 800;
+}
+
+.view a {
+    color: rgba(153, 46, 157, 1);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width:800px){
+    h2{
+        text-align: center;
+        font-size: xx-large;
+    }
+    .course{
+        overflow: hidden;
+    }
+    .course-content{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: -20px;
+    }
+    .corse-details{
+        width:90%;
+        display: flex;
+        margin: 10px;
+        flex-direction: column;
+    }
+    .view{
+        width:300px;
+        height:40px;
+        margin-left:-20px;
+        border-radius: 5px;
+        padding: 0;
+        margin-top: 10px;
+    }
+    p{
+        text-align: center;
+    }
+    
+}

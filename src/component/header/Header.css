@@ -1,0 +1,22 @@
+.links{
+    width:100%;
+    background-color:#3B3B3E ;
+    height:48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links a{
+    color:white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+@media only screen and (max-width: 800px) {
+    .links a{
+        margin-left: 12px;
+    }
+    .links{
+        overflow: hidden;
+    }
+}
+

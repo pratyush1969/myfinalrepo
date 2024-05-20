@@ -1,0 +1,122 @@
+.mainbody {
+    width: 100%;
+
+    margin-top: 50px;
+    margin-left: 128px;
+}
+
+.upperbox {
+    display: flex;
+    border: 1px solid #FFA50B;
+    width: 355px;
+    height: 66px;
+    border-radius: 16px;
+    /*padding:18px 24px 18px 24px*/
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.middletext {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 27px;
+    color: #686972
+}
+
+.middletext span {
+    color: #992E9D
+}
+
+.lowertext {
+    margin-bottom: 30px;
+}
+
+
+.icons {
+    width: 100%;
+    display: flex;
+}
+
+.first img {
+    width: 22.6px;
+    height: 22.6px
+}
+
+.first {
+    background-color: #FFF4C5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 214px;
+    height: 48px;
+    border-radius: 100px;
+}
+
+.mainbody button {
+    width: 219px;
+    height: 75px;
+    border-radius: 20px;
+    padding: 24px 48px 24px 48px;
+    background-color: #992E9D;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: none;
+}
+
+.mainbody button:nth-child(2) {
+    background: transparent;
+    border: none;
+    color: #992E9D
+}
+
+@media only screen and (max-width: 800px) {
+    .mainbody {
+        width: 90%;
+        margin: 30px;
+        font-size: larger;
+        overflow: hidden;
+    }
+
+    .middletext {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .lowertext {
+        margin-top: 10px;
+    }
+
+    .button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .button button {
+        width: 350px
+    }
+
+    .icons .first img {
+        display: none;
+    }
+    .icons .first{
+        width:150px;
+        font-size: 15px;
+        margin: 10px;
+        padding: 5px;
+        color:rgba(187, 83, 2, 1)
+    }
+    .icons {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
